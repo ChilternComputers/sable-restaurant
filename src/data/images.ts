@@ -1,33 +1,32 @@
-/** Unsplash photo IDs used for section backgrounds */
+/** Local self-hosted hero images (formerly Unsplash hotlinks) */
 export const IMAGES = {
-  hero: "photo-1414235077428-338989a2e8c0",
-  privateDining: "photo-1517248135467-4c7edcad34c4",
-  reservationCTA: "photo-1466978913421-dad2ebd01d17",
+  hero: "/images/unsplash/1414235077428-338989a2e8c0.webp",
+  privateDining: "/images/unsplash/1517248135467-4c7edcad34c4.webp",
+  reservationCTA: "/images/unsplash/1466978913421-dad2ebd01d17.webp",
 } as const;
 
 /**
- * Build a responsive Unsplash URL from a photo ID.
- * Usage: unsplash(IMAGES.hero, 1920)
- *        unsplash(IMAGES.hero, 1920, { height: 1080, quality: 45 })
+ * Kept for callsite compatibility — images are now self-hosted, so width /
+ * quality / height hints are ignored and the local asset path is returned
+ * as-is. The browser handles scaling via CSS / object-fit.
  */
 export function unsplash(
-  photoId: string,
-  width: number,
-  opts?: { height?: number; quality?: number },
+  path: string,
+  _width?: number,
+  _opts?: { height?: number; quality?: number },
 ): string {
-  const q = opts?.quality ?? 75;
-  let url = `https://images.unsplash.com/${photoId}?w=${width}&fit=crop&fm=webp&q=${q}`;
-  if (opts?.height) url += `&h=${opts.height}`;
-  return url;
+  return path;
 }
 
-/** Generate a srcSet string for responsive images */
+/**
+ * Kept for callsite compatibility. Local images have a single high-res
+ * source, so the srcset just announces the natural width as 1920w —
+ * the browser will pick this entry and CSS handles the scaling down.
+ */
 export function unsplashSrcSet(
-  photoId: string,
-  widths: number[],
-  opts?: { quality?: number },
+  path: string,
+  _widths: number[],
+  _opts?: { quality?: number },
 ): string {
-  return widths
-    .map((w) => `${unsplash(photoId, w, opts)} ${w}w`)
-    .join(", ");
+  return `${path} 1920w`;
 }

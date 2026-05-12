@@ -23,7 +23,7 @@ export function AboutPreview() {
                 style={{ aspectRatio: "4/5" }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=640&h=800&fit=crop&fm=webp&q=60"
+                  src="/images/unsplash/1577219491135-ce391730fb2c.webp"
                   alt="Head Chef Marcus Webb in the kitchen"
                   fill
                   className="object-cover"

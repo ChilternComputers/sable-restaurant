@@ -13,7 +13,7 @@ export const privateRooms: PrivateRoom[] = [
       "Separate entrance",
     ],
     image:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop&fm=webp&q=75",
+      "/images/unsplash/1517248135467-4c7edcad34c4.webp",
   },
   {
     name: "The Garden Room",
@@ -27,7 +27,7 @@ export const privateRooms: PrivateRoom[] = [
       "Private bar service",
     ],
     image:
-      "https://images.unsplash.com/photo-1564759298141-cef86f51d4d4?w=800&h=600&fit=crop&fm=webp&q=75",
+      "/images/unsplash/1564759298141-cef86f51d4d4.webp",
   },
   {
     name: "The Salon",
@@ -41,6 +41,6 @@ export const privateRooms: PrivateRoom[] = [
       "Custom floral arrangements",
     ],
     image:
-      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=600&fit=crop&fm=webp&q=75",
+      "/images/unsplash/1559339352-11d035aa65de.webp",
   },
 ];

@@ -10,7 +10,7 @@ export const menuItems: MenuItem[] = [
     dietary: ["V", "GF"],
     category: "starters",
     image:
-      "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&h=400&fit=crop&fm=webp&q=60",
+      "/images/unsplash/1544025162-d76694265947.webp",
     featured: true,
   },
   {
@@ -35,7 +35,7 @@ export const menuItems: MenuItem[] = [
     dietary: ["V"],
     category: "starters",
     image:
-      "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=600&h=400&fit=crop&fm=webp&q=60",
+      "/images/unsplash/1626200419199-391ae4be7a41.webp",
   },
   {
     name: "Cured Salmon Gravlax",
@@ -53,7 +53,7 @@ export const menuItems: MenuItem[] = [
     dietary: ["GF"],
     category: "mains",
     image:
-      "https://images.unsplash.com/photo-1558030006-450675393462?w=600&h=400&fit=crop&fm=webp&q=60",
+      "/images/unsplash/1558030006-450675393462.webp",
     featured: true,
   },
   {
@@ -72,7 +72,7 @@ export const menuItems: MenuItem[] = [
     dietary: [],
     category: "mains",
     image:
-      "https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=600&h=400&fit=crop&fm=webp&q=60",
+      "/images/unsplash/1580476262798-bddd9f4b7369.webp",
   },
   {
     name: "Wild Mushroom Risotto",
@@ -90,7 +90,7 @@ export const menuItems: MenuItem[] = [
     dietary: ["GF"],
     category: "mains",
     image:
-      "https://images.unsplash.com/photo-1432139509613-5c4255815697?w=600&h=400&fit=crop&fm=webp&q=60",
+      "/images/unsplash/1432139509613-5c4255815697.webp",
     featured: true,
   },
   // Desserts
@@ -101,7 +101,7 @@ export const menuItems: MenuItem[] = [
     dietary: ["V"],
     category: "desserts",
     image:
-      "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?w=600&h=400&fit=crop&fm=webp&q=60",
+      "/images/unsplash/1541783245831-57d6fb0926d3.webp",
     featured: true,
   },
   {

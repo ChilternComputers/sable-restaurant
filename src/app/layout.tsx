@@ -97,7 +97,6 @@ export default function RootLayout({
     <html lang="en-GB">
       <head>
         <meta name="theme-color" content="#0C0C0C" />
-        <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="alternate" hrefLang="en-GB" href="https://sable-restaurant.pages.dev/" />
         <link rel="alternate" hrefLang="x-default" href="https://sable-restaurant.pages.dev/" />
         <script
