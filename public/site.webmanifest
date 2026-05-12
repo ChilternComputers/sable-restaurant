@@ -1,0 +1,63 @@
+{
+  "id": "/",
+  "lang": "en-GB",
+  "name": "Sable Restaurant",
+  "short_name": "Sable",
+  "description": "Reserve your table and explore our seasonal menu at Sable — modern European fine dining in London.",
+  "start_url": "/menu/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "theme_color": "#0C0C0C",
+  "background_color": "#0C0C0C",
+  "categories": ["food", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "View Menu",
+      "url": "/menu/",
+      "description": "Browse our seasonal menu"
+    },
+    {
+      "name": "Reserve a Table",
+      "url": "/reservations/",
+      "description": "Book your dining experience"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact/",
+      "description": "Get in touch with Sable"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
