@@ -23,10 +23,10 @@ export function MenuHighlights() {
         </AnimateOnScroll>
 
         <div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+          className="grid grid-cols-1 md:grid-cols-2"
           style={{ gap: "48px" }}
         >
-          {featured.slice(0, 6).map((item, i) => (
+          {featured.slice(0, 4).map((item, i) => (
             <AnimateOnScroll key={item.name} delay={i * 0.15}>
               <div
                 className="group bg-brand-surface overflow-hidden"

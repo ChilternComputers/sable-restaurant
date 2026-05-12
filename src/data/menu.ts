@@ -63,9 +63,6 @@ export const menuItems: MenuItem[] = [
     price: 38,
     dietary: ["GF"],
     category: "mains",
-    image:
-      "https://images.unsplash.com/photo-1535473895227-bdecb20fb157?w=600&h=400&fit=crop&fm=webp&q=60",
-    featured: true,
   },
   {
     name: "Roasted Duck Breast",
